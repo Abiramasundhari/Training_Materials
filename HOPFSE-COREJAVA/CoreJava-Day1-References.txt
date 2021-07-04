@@ -1,0 +1,144 @@
+core java:
+	->purely object oriented programming language
+	-> james gosling->sun microsystem(1995)(scjp)->oracle(OCJP)
+Object Orientation:
+  	->object->real world entity
+	->aspects of oops:
+		->classes>collection of objects
+		->object>real world entity
+Structure of Java program:
+class
+   -Objects
+Main Method
+
+Ide:
+Netbeans IDE
+Eclipse 
+
+jdk->java development kit
+
+
+
+File>New->Project
+->Java Project from select wizard
+Provide anyname for proj
+If you are prompted with module creation & associated perspective, you can deny those option
+
+package ->Collection of classes
+
+Class Syntax:
+
+class Mobile
+{
+
+
+}
+Main Method Syntax:
+public static void main(String[] args)  
+
+public->access Specifier:->make main method available everywhere
+static->in order to call the method without using objects
+void-> returns nothing->no return keyword in your method
+main->name of the method
+Println Method:
+System.out.println()
+System->name of the class
+out->name of object
+println->name of method
+Data Types:
+	int -> whole numbers->0 to 35535->12&14
+	float-> decimal numbers->12.5
+	double->decimal number-145.3456554
+	long->whole number->read mobile number
+	string->textual data->sequence of characters->"Hello"
+	char->textual data->only character=>'a','b','c'
+	boolean ->true/false
+
+Variable declaration:
+	variable->memory location to store some value.
+syntax:
+	datatype variablename;
+	eg:     int a;
+		float f;
+		double d;
+		String s;
+		char c;
+		boolean b;
+
+rules for declaring variables:
+	1. variable name must start with underscore or alphabet follwed with alphnumeric content
+	2. no special characters is allowed except underscore
+	3. No keywords should be used.
+
+Reading an ip from user:
+Scanner->util
+
+Syntax of object:
+Classname objname=new classname();
+Scanner scan=new Scanner();
+Functions
+	->building blocks of program
+
+Syntax:
+	return_type name_of_function()
+	{
+
+	}
+Eg:     void addition()
+	{
+
+	}
+
+
+
+Declaration
+Definition
+Invocation/Calling
+Decision Making Statements:
+	If Statement
+		Simple if
+		If else:
+	Synta:
+		if(a>=5)
+		{
+		}
+		else
+		{
+			
+		}
+		Else if Ladder
+			if(cond){....}
+			else if(cond){....}
+			.
+			.
+			.
+			.
+			.
+			else{ }
+		Nested if
+			if(cond)
+			{
+				if(cond)
+				{
+				}
+			}
+	Switch:
+		switch(expression)
+		{
+			case 1:
+				//st;
+				break;
+			case 2:
+				//st;
+				break;
+			.
+			.
+			.
+			.
+			case n:
+				//st;
+				break
+			default:
+				//st;
+		}
+Looping Statements:
